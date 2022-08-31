@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+About: Create a report to help us improve
 title: ''
 labels: bug
 assignees: ''
@@ -35,4 +35,4 @@ If applicable, add screenshots to help explain your problem.
 - Ruby version [e.g. 2.6.5]
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context About the problem here.

@@ -113,7 +113,7 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 
 ## Getting started
 
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Want to learn more About Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
 
@@ -205,7 +205,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
 
 **To enable automatic deployment:**
-1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
+1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry About creating any workflows as everything has already been set for you.
 2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
 3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
 4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
@@ -236,7 +236,7 @@ Then simply copy the contents of the `_site/` foder to your hosting server.
 
 <details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
 
-**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
+**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/About-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
 
 Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
 For a user site this could well be something like `$HOME/<user>.github.io`.
@@ -282,7 +282,7 @@ $ git rebase v0.3.5
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
 You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
-See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
+See [git rebase manual](https://help.github.com/en/github/using-git/About-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
 ---
@@ -325,22 +325,22 @@ If you have a different question, please ask using [Discussions](https://github.
 
 ### Publications
 
-Your publications page is generated automatically from your BibTex bibliography.
+Your Publications page is generated automatically from your BibTex bibliography.
 Simply edit `_bibliography/papers.bib`.
-You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
+You can also add new `*.bib` files and customize the look of your Publications however you like by editing `_pages/Publications.md`.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/Publications-screenshot.png" width=800></p>
 
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
-In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+In Publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 ```
 scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 ```
 If the entry matches the last name and one form of the first names, it will be underlined.
-Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
+Keep meta-information About your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
 "Adams":
@@ -392,14 +392,14 @@ You can implement your own buttons by editing the bib.html file.
 ### Collections
 
 This Jekyll theme implements `collections` to let you break up your work into categories.
-The theme comes with two default collections: `news` and `projects`.
+The theme comes with two default collections: `news` and `Projects`.
 Items from the `news` collection are automatically displayed on the home page.
-Items from the `projects` collection are displayed on a responsive grid on projects page.
+Items from the `Projects` collection are displayed on a responsive grid on Projects page.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/projects-screenshot.png" width=700></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/Projects-screenshot.png" width=700></p>
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
-To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/Projects.md`.
 
 ---
 
@@ -430,7 +430,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 Easily create beautiful grids within your blog posts and project pages:
 
 <p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+  <a href="https://alshedivat.github.io/al-folio/Projects/1_project/">
     <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
   </a>
 </p>
@@ -439,26 +439,26 @@ Easily create beautiful grids within your blog posts and project pages:
 
 ### Other features
 
-#### GitHub repositories and user stats
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
+#### GitHub Repositories and user stats
+**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub Repositories and user stats on the the `/Repositories/` page.
 
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
+Edit the `_data/Repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and Repositories to the the `/Repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
 ```
 <!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
+{% if site.data.Repositories.github_users %}
+<div class="Repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.Repositories.github_users %}
     {% include repository/repo_user.html username=user %}
   {% endfor %}
 </div>
 {% endif %}
 
-<!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+<!-- code for GitHub Repositories -->
+{% if site.data.Repositories.github_repos %}
+<div class="Repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.Repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>

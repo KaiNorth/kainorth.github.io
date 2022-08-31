@@ -1947,7 +1947,7 @@
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
   var BASESIZE = 6; /**
-                     * This file contains information about the options that the Parser carries
+                     * This file contains information About the options that the Parser carries
                      * around with it while parsing. Data is held in an `Options` object, and when
                      * recursing, a new `Options` object can be created with the `.with*` and
                      * `.reset` functions.
@@ -2279,7 +2279,7 @@
    * errors from errors in the expression that the user provided.
    *
    * If possible, a caller should provide a Token or ParseNode with information
-   * about where in the source string the problem occurred.
+   * About where in the source string the problem occurred.
    *
    * @param {string} message  The error message
    * @param {(Token|ParseNode)=} token  An object providing position information
@@ -2461,7 +2461,7 @@
    *
    * The earlier functions return ParseNodes.
    * The later functions (which are called deeper in the parse) sometimes return
-   * ParseFuncOrArgument, which contain a ParseNode as well as some data about
+   * ParseFuncOrArgument, which contain a ParseNode as well as some data About
    * whether the parsed object is a function which is missing some arguments, or a
    * standalone object which can be used as an argument to another function.
    */
@@ -3408,9 +3408,9 @@
   /**
    * This file contains information and classes for the various kinds of styles
    * used in TeX. It provides a generic `Style` class, which holds information
-   * about a specific style. It then provides instances of all the different kinds
+   * About a specific style. It then provides instances of all the different kinds
    * of styles possible, and provides functions to move between them and get
-   * information about them.
+   * information About them.
    */
 
   /**
@@ -3861,7 +3861,7 @@
       // `overflow:hidden`, the strut's top edge will sit on the item's line box's
       // top edge and the strut's bottom edge will sit on the item's baseline,
       // with no additional line-height spacing. This allows the item baseline to
-      // be positioned precisely without worrying about font ascent and
+      // be positioned precisely without worrying About font ascent and
       // line-height.
       var pstrutSize = 0;
       for (i = 0; i < children.length; i++) {
@@ -4446,7 +4446,7 @@
           }
 
           var _vlistElem = [{ type: "elem", elem: subm, shift: subShift, marginRight: scriptspace }, { type: "elem", elem: supm, shift: -supShift, marginRight: scriptspace }];
-          // See comment above about subscripts not being shifted
+          // See comment above About subscripts not being shifted
           if (base instanceof _domTree2.default.symbolNode) {
               _vlistElem[0].marginLeft = -base.italic + "em";
           }
@@ -6958,7 +6958,7 @@
    * with spaces, we also remove null or empty classes.
    */
   /**
-   * These objects store the data about the DOM nodes we create, as well as some
+   * These objects store the data About the DOM nodes we create, as well as some
    * extra data. They can then be transformed into real DOM nodes with the
    * `toNode` function or HTML markup using `toMarkup`. They are useful for both
    * storing extra properties on the nodes, as well as providing a way to easily
@@ -6979,7 +6979,7 @@
 
   /**
    * This node represents a span node, with a className, a list of children, and
-   * an inline style. It also contains information about its height, depth, and
+   * an inline style. It also contains information About its height, depth, and
    * maxFontSize.
    */
 
@@ -7184,7 +7184,7 @@
   };
 
   /**
-   * A symbol node contains information about a single symbol. It either renders
+   * A symbol node contains information About a single symbol. It either renders
    * to a single text node, or a span with a single text node in it, depending on
    * whether it has CSS classes, styles, or needs italic correction.
    */
@@ -7634,7 +7634,7 @@
   //     tftopl cmsy5
   //
   // The output of each of these commands is quite lengthy.  The only part we
-  // care about is the FONTDIMEN section. Each value is measured in EMs.
+  // care About is the FONTDIMEN section. Each value is measured in EMs.
   var sigmasAndXis = {
       slant: [0.250, 0.250, 0.250], // sigma1
       space: [0.000, 0.000, 0.000], // sigma2
@@ -10568,7 +10568,7 @@
    * This node represents a piece of text.
    */
   /**
-   * These objects store data about MathML nodes. This is the MathML equivalent
+   * These objects store data About MathML nodes. This is the MathML equivalent
    * of the types in domTree.js. Since MathML handles its own rendering, and
    * since we're mainly using MathML to improve accessibility, we don't manage
    * any of the styling state that the plain DOM nodes do.
@@ -12193,7 +12193,7 @@
 
   }
 
-  var favicon = "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA99JREFUeNrsG4t1ozDMzQSM4A2ODUonKBucN2hugtIJ6E1AboLcBiQTkJsANiAb9OCd/OpzMWBJBl5TvaeXPiiyJetry0J8wW3D3QpjRh3GjneXDq+fSQA9s2mH9x3KDhN4foJfCb8N/Jrv+2fnDn8vLRQOplWHVYdvHZYdZsBcZP1vBmh/n8DzEmhUQDPaOuP9pFuY+JwJHwHnCLQE2tnWBGEyXozY9xCUgHMhhjE2I4heVWtgIkZ83wL6Qgxj1obfWBxymPwe+b00BCCRNPbwfb60yleAkkBHGT5AEehIYz7eJrFDMF9CvH4wwhcGHiHMneFvLDQwlwvMLQq58trRcYBWfYn0A0OgHWQUSu25mE+BnoYKnnEJoeIWAifzOv7vLWd2ZKRfWAIme3tOiUaQ3UnLkb0xj1FxRIeEGKaGIHOs9nEgLaaA9i0JRYo1Ic67wJW86KSKE/ZAM8KuVMk8ITVhmxUxJ3Cl2xlm9Vtkeju1+mpCQNxaEGNCY8bs9X2YqwNoQeGjBWut/ma0QAWy/TqAsHx9wSya3I5IRxOfTC+leG+kA/4vSeEcGBtNUN6byhu3+keEZCQJUNh8MAO7HL6H8pQLnsW/Hd4T4lv93TPjfM7A46iEEqbB5EDOvwYNW6tGNZzT/o+CZ6sqZ6wUtR/wf7mi/VL8iNciT6rHih48Y55b4nKCHJCCzb4y0nwFmin3ZEMIoLfZF8F7nncFmvnWBaBj7CGAYA/WGJsUwHdYqVDwAmNsUgAx4CGgAA7GOOxADYOFWOaIKifuVYzmOpREqA21Mo7aPsgiY1PhOMAmxtR+AUbYH3Id2wc0SAFIQTsn9IUGWR8k9jx3vtXSiAacFxTAGakBk9UudkNECd6jLe+6HrshshvIuC6IlLMRy7er+JpcKma24SlE4cFZSZJDGVVrsNvitQhQrDhW0jfiOLfFd47C42eHT56D/BK0To+58Ahj+cAT8HT1UWlfLZCCd/uKawzU0Rh2EyIX/Icqth3niG8ybNroezwe6khdCNxRN+l4XGdOLVLlOOt2hTRJlr1ETIuMAltVTMz70mJrkdGAaZLSmnBEqmAE32JCMmuTlCnRgsBENtOUpHhvvsYIL0ibnBkaC6QvKcR7738GKp0AKnim7xgUSNv1bpS8QwhBt8r+EP47v/oyRK/S34yJ9nT+AN0Tkm4OdB9E4BsmXM3SnMlRFUrtp6IDpV2eKzdYvF3etm3KhQksbOLChGkSmcBdmcEwvqkrMy5BzL00NZeu3qPYJOOuCc+5NjcWKXQxFvTa3NoXJ4d8in7fiAUuTt781dkvuHX4K8AA2Usy7yNKLy0AAAAASUVORK5CYII=\n";
+  var favicon = "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA99JREFUeNrsG4t1ozDMzQSM4A2ODUonKBucN2hugtIJ6E1AboLcBiQTkJsANiAb9OCd/OpzMWBJBl5TvaeXPiiyJetry0J8wW3D3QpjRh3GjneXDq+fSQA9s2mH9x3KDhN4foJfCb8N/Jrv+2fnDn8vLRQOplWHVYdvHZYdZsBcZP1vBmh/n8DzEmhUQDPaOuP9pFuY+JwJHwHnCLQE2tnWBGEyXozY9xCUgHMhhjE2I4heVWtgIkZ83wL6Qgxj1obfWBxymPwe+b00BCCRNPbwfb60yleAkkBHGT5AEehIYz7eJrFDMF9CVH4wwhcGHiHMneFvLDQwlwvMLQq58trRcYBWfYn0A0OgHWQUSu25mE+BnoYKnnEJoeIWAifzOv7vLWd2ZKRfWAIme3tOiUaQ3UnLkb0xj1FxRIeEGKaGIHOs9nEgLaaA9i0JRYo1Ic67wJW86KSKE/ZAM8KuVMk8ITVhmxUxJ3Cl2xlm9Vtkeju1+mpCQNxaEGNCY8bs9X2YqwNoQeGjBWut/ma0QAWy/TqAsHx9wSya3I5IRxOfTC+leG+kA/4vSeEcGBtNUN6byhu3+keEZCQJUNh8MAO7HL6H8pQLnsW/Hd4T4lv93TPjfM7A46iEEqbB5EDOvwYNW6tGNZzT/o+CZ6sqZ6wUtR/wf7mi/VL8iNciT6rHih48Y55b4nKCHJCCzb4y0nwFmin3ZEMIoLfZF8F7nncFmvnWBaBj7CGAYA/WGJsUwHdYqVDwAmNsUgAx4CGgAA7GOOxADYOFWOaIKifuVYzmOpREqA21Mo7aPsgiY1PhOMAmxtR+AUbYH3Id2wc0SAFIQTsn9IUGWR8k9jx3vtXSiAacFxTAGakBk9UudkNECd6jLe+6HrshshvIuC6IlLMRy7er+JpcKma24SlE4cFZSZJDGVVrsNvitQhQrDhW0jfiOLfFd47C42eHT56D/BK0To+58Ahj+cAT8HT1UWlfLZCCd/uKawzU0Rh2EyIX/Icqth3niG8ybNroezwe6khdCNxRN+l4XGdOLVLlOOt2hTRJlr1ETIuMAltVTMz70mJrkdGAaZLSmnBEqmAE32JCMmuTlCnRgsBENtOUpHhvvsYIL0ibnBkaC6QvKcR7738GKp0AKnim7xgUSNv1bpS8QwhBt8r+EP47v/oyRK/S34yJ9nT+AN0Tkm4OdB9E4BsmXM3SnMlRFUrtp6IDpV2eKzdYvF3etm3KhQksbOLChGkSmcBdmcEwvqkrMy5BzL00NZeu3qPYJOOuCc+5NjcWKXQxFvTa3NoXJ4d8in7fiAUuTt781dkvuHX4K8AA2Usy7yNKLy0AAAAASUVORK5CYII=\n";
 
   /*!
    * escape-html
@@ -12894,7 +12894,7 @@ distill-header .nav a {
     Distill
   </a>
   <nav class="nav">
-    <a href="/about/">About</a>
+    <a href="/About/">About</a>
     <a href="/prize/">Prize</a>
     <a href="/journal/">Submit</a>
   </nav>
@@ -13057,7 +13057,7 @@ distill-header .nav a {
   </a> is dedicated to clear explanations of machine learning
 
   <div class="nav">
-    <a href="https://distill.pub/about/">About</a>
+    <a href="https://distill.pub/About/">About</a>
     <a href="https://distill.pub/journal/">Submit</a>
     <a href="https://distill.pub/prize/">Prize</a>
     <a href="https://distill.pub/archive/">Archive</a>
